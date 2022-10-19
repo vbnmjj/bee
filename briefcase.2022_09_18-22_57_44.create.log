@@ -1,0 +1,660 @@
+Date/Time:       2022-09-18 22:57:45 
+Command line:    /usr/local/bin/briefcase create android
+
+OS Release:      Linux 5.18.0-kali7-amd64
+OS Version:      #1 SMP PREEMPT_DYNAMIC Debian 5.18.16-1kali1 (2022-08-31)
+Architecture:    x86_64
+Platform:        Linux-5.18.0-kali7-amd64-x86_64-with-glibc2.34
+
+Python exe:      /usr/bin/python3
+Python version:  3.10.7 (main, Sep  8 2022, 14:34:29) [GCC 12.2.0]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.9
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    CLUTTER_IM_MODULE=ibus
+    COLORFGBG=15;0
+    COLORTERM=truecolor
+    COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+    DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+    DESKTOP_SESSION=lightdm-xsession
+    DISPLAY=:0.0
+    DOTNET_CLI_TELEMETRY_OPTOUT=1
+    GDMSESSION=lightdm-xsession
+    GTK_IM_MODULE=ibus
+    GTK_MODULES=gail:atk-bridge
+    HOME=/root
+    LANG=en_HK.UTF-8
+    LANGUAGE=en_HK:en
+    LESS_TERMCAP_mb=[1;31m
+    LESS_TERMCAP_md=[1;36m
+    LESS_TERMCAP_me=[0m
+    LESS_TERMCAP_se=[0m
+    LESS_TERMCAP_so=[01;33m
+    LESS_TERMCAP_ue=[0m
+    LESS_TERMCAP_us=[1;32m
+    LOGNAME=root
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow=30;44:
+    OLDPWD=/root
+    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+    POWERSHELL_TELEMETRY_OPTOUT=1
+    POWERSHELL_UPDATECHECK=Off
+    PWD=/home/kali/helloworld
+    QT_ACCESSIBILITY=1
+    QT_AUTO_SCREEN_SCALE_FACTOR=0
+    QT_IM_MODULE=ibus
+    QT_QPA_PLATFORMTHEME=qt5ct
+    SESSION_MANAGER=local/kali:@/tmp/.ICE-unix/1248,unix/kali:/tmp/.ICE-unix/1248
+    SHELL=/usr/bin/zsh
+    SHLVL=1
+    SSH_AGENT_PID=1311
+    SSH_AUTH_SOCK=/tmp/ssh-XXXXXX82P03b/agent.1248
+    TERM=xterm-256color
+    USER=root
+    WINDOWID=0
+    XAUTHORITY=/root/.Xauthority
+    XDG_CONFIG_DIRS=/etc/xdg
+    XDG_CURRENT_DESKTOP=XFCE
+    XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
+    XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/root
+    XDG_MENU_PREFIX=xfce-
+    XDG_RUNTIME_DIR=/run/user/0
+    XDG_SEAT=seat0
+    XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+    XDG_SESSION_CLASS=user
+    XDG_SESSION_DESKTOP=lightdm-xsession
+    XDG_SESSION_ID=2
+    XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+    XDG_SESSION_TYPE=x11
+    XDG_VTNR=7
+    XMODIFIERS=@im=ibus
+    _=/usr/local/bin/briefcase
+    _JAVA_OPTIONS=-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+
+Briefcase Log:
+[22:57:38]                                                                                                                                                         subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/cmdline-tools/latest/bin/sdkmanager --list_installed                                                   subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Environment Overrides:                                                                                                                              subprocess.py:461
+           >>>     ANDROID_SDK_ROOT=/root/.cache/briefcase/tools/android_sdk                                                                                       subprocess.py:463
+           >>>     JAVA_HOME=/root/.cache/briefcase/tools/java                                                                                                     subprocess.py:463
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     Loading package information...                                                                                                                  subprocess.py:470
+           >>>     Loading local repository...                                                                                                                     subprocess.py:470
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:470
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:470
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:470
+           >>>     Installed packages:                                                                                                                             subprocess.py:470
+           >>>       Path       | Version | Description          | Location                                                                                        subprocess.py:470
+           >>>       -------    | ------- | -------              | -------                                                                                         subprocess.py:470
+           >>>       patcher;v4 | 1       | SDK Patch Applier v4 | patcher/v4                                                                                      subprocess.py:470
+           >>>                                                                                                                                                     subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+                                                                                                                                                                       create.py:672
+           [helloworld] Generating application template...                                                                                                             create.py:672
+           Using app template: https://github.com/beeware/briefcase-android-gradle-template.git, branch 3.10                                                           create.py:248
+[22:57:39]                                                                                                                                                               base.py:705
+           *************************************************************************                                                                                     base.py:705
+           ** WARNING: Unable to update template                                  **                                                                                     base.py:705
+           *************************************************************************                                                                                     base.py:705
+                                                                                                                                                                         base.py:705
+              Briefcase is unable the update the application template. This                                                                                              base.py:705
+              may be because your computer is currently offline. Briefcase will                                                                                          base.py:705
+              use existing template without updating.                                                                                                                    base.py:705
+                                                                                                                                                                         base.py:705
+           *************************************************************************                                                                                     base.py:705
+           Using existing template (sha 012d247017d680e6285848ff7876c91a6daec217, updated Thu Jun 23 08:36:12 2022)                                                      base.py:722
+                                                                                                                                                                       create.py:675
+           [helloworld] Installing support package...                                                                                                                  create.py:675
+           Using support package https://briefcase-support.org/python?platform=android&version=3.10                                                                    create.py:341
+           ... using most recent revision                                                                                                                              create.py:359
+[22:57:44]                                                                                                                                                            __main__.py:22
+           Unable to downloading support package; is your computer offline?                                                                                           __main__.py:23
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/lib/python3/dist-packages/urllib3/connectionpool.py:704 in urlopen                                                                                                          │
+│                                                                                                                                                                                  │
+│    701 │   │   │   │   self._prepare_proxy(conn)                                                                                                                                 │
+│    702 │   │   │                                                                                                                                                                 │
+│    703 │   │   │   # Make the request on the httplib connection object.                                                                                                          │
+│ ❱  704 │   │   │   httplib_response = self._make_request(                                                                                                                        │
+│    705 │   │   │   │   conn,                                                                                                                                                     │
+│    706 │   │   │   │   method,                                                                                                                                                   │
+│    707 │   │   │   │   url,                                                                                                                                                      │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────────╮        │
+│ │ _is_ssl_error_message_from_http_proxy = <function HTTPConnectionPool.urlopen.<locals>._is_ssl_error_message_from_http_proxy at 0x7f94198f7760>                        │        │
+│ │                      assert_same_host = False                                                                                                                         │        │
+│ │                                  body = None                                                                                                                          │        │
+│ │                              body_pos = None                                                                                                                          │        │
+│ │                               chunked = False                                                                                                                         │        │
+│ │                            clean_exit = False                                                                                                                         │        │
+│ │                                  conn = None                                                                                                                          │        │
+│ │                    destination_scheme = None                                                                                                                          │        │
+│ │                                   err = None                                                                                                                          │        │
+│ │                               headers = {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'} │        │
+│ │                  http_tunnel_required = False                                                                                                                         │        │
+│ │                     is_new_proxy_conn = False                                                                                                                         │        │
+│ │                                method = 'GET'                                                                                                                         │        │
+│ │                            parsed_url = Url(scheme=None, auth=None, host=None, port=None, path='/python', query='platform=android&version=3.10', fragment=None)       │        │
+│ │                          pool_timeout = None                                                                                                                          │        │
+│ │                              redirect = False                                                                                                                         │        │
+│ │                          release_conn = False                                                                                                                         │        │
+│ │                     release_this_conn = True                                                                                                                          │        │
+│ │                           response_kw = {'preload_content': False, 'decode_content': False}                                                                           │        │
+│ │                               retries = Retry(total=0, connect=None, read=False, redirect=None, status=None)                                                          │        │
+│ │                                  self = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520>                                                         │        │
+│ │                               timeout = Timeout(connect=None, read=None, total=None)                                                                                  │        │
+│ │                           timeout_obj = Timeout(connect=None, read=None, total=None)                                                                                  │        │
+│ │                                   url = '/python?platform=android&version=3.10'                                                                                       │        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯        │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/connectionpool.py:387 in _make_request                                                                                                    │
+│                                                                                                                                                                                  │
+│    384 │   │                                                                                                                                                                     │
+│    385 │   │   # Trigger any extra validation we need to do.                                                                                                                     │
+│    386 │   │   try:                                                                                                                                                              │
+│ ❱  387 │   │   │   self._validate_conn(conn)                                                                                                                                     │
+│    388 │   │   except (SocketTimeout, BaseSSLError) as e:                                                                                                                        │
+│    389 │   │   │   # Py2 raises this as a BaseSSLError, Py3 raises it as socket timeout.                                                                                         │
+│    390 │   │   │   self._raise_timeout(err=e, url=url, timeout_value=conn.timeout)                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │            chunked = False                                                                                                                                                   │ │
+│ │               conn = <urllib3.connection.HTTPSConnection object at 0x7f94198efee0>                                                                                           │ │
+│ │ httplib_request_kw = {                                                                                                                                                       │ │
+│ │                      │   'body': None,                                                                                                                                       │ │
+│ │                      │   'headers': {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'}            │ │
+│ │                      }                                                                                                                                                       │ │
+│ │             method = 'GET'                                                                                                                                                   │ │
+│ │               self = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520>                                                                                   │ │
+│ │            timeout = Timeout(connect=None, read=None, total=None)                                                                                                            │ │
+│ │        timeout_obj = Timeout(connect=None, read=None, total=None)                                                                                                            │ │
+│ │                url = '/python?platform=android&version=3.10'                                                                                                                 │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/connectionpool.py:1043 in _validate_conn                                                                                                  │
+│                                                                                                                                                                                  │
+│   1040 │   │                                                                                                                                                                     │
+│   1041 │   │   # Force connect early to allow us to validate the connection.                                                                                                     │
+│   1042 │   │   if not getattr(conn, "sock", None):  # AppEngine might not have  `.sock`                                                                                          │
+│ ❱ 1043 │   │   │   conn.connect()                                                                                                                                                │
+│   1044 │   │                                                                                                                                                                     │
+│   1045 │   │   if not conn.is_verified:                                                                                                                                          │
+│   1046 │   │   │   warnings.warn(                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────── locals ──────────────────────────────────────╮                                                                                            │
+│ │ __class__ = <class 'urllib3.connectionpool.HTTPSConnectionPool'>                  │                                                                                            │
+│ │      conn = <urllib3.connection.HTTPSConnection object at 0x7f94198efee0>         │                                                                                            │
+│ │      self = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520> │                                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────╯                                                                                            │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/connection.py:414 in connect                                                                                                              │
+│                                                                                                                                                                                  │
+│   411 │   │   ):                                                                                                                                                                 │
+│   412 │   │   │   context.load_default_certs()                                                                                                                                   │
+│   413 │   │                                                                                                                                                                      │
+│ ❱ 414 │   │   self.sock = ssl_wrap_socket(                                                                                                                                       │
+│   415 │   │   │   sock=conn,                                                                                                                                                     │
+│   416 │   │   │   keyfile=self.key_file,                                                                                                                                         │
+│   417 │   │   │   certfile=self.cert_file,                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                     │
+│ │                conn = <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6> │                                                     │
+│ │             context = <ssl.SSLContext object at 0x7f9419940340>                                                          │                                                     │
+│ │ default_ssl_context = True                                                                                               │                                                     │
+│ │            hostname = 'briefcase-support.org'                                                                            │                                                     │
+│ │         is_time_off = False                                                                                              │                                                     │
+│ │                self = <urllib3.connection.HTTPSConnection object at 0x7f94198efee0>                                      │                                                     │
+│ │     server_hostname = 'briefcase-support.org'                                                                            │                                                     │
+│ │          tls_in_tls = False                                                                                              │                                                     │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                     │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/util/ssl_.py:449 in ssl_wrap_socket                                                                                                       │
+│                                                                                                                                                                                  │
+│   446 │   │   )                                                                                                                                                                  │
+│   447 │                                                                                                                                                                          │
+│   448 │   if send_sni:                                                                                                                                                           │
+│ ❱ 449 │   │   ssl_sock = _ssl_wrap_socket_impl(                                                                                                                                  │
+│   450 │   │   │   sock, context, tls_in_tls, server_hostname=server_hostname                                                                                                     │
+│   451 │   │   )                                                                                                                                                                  │
+│   452 │   else:                                                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────╮                                                        │
+│ │     ca_cert_data = None                                                                                               │                                                        │
+│ │      ca_cert_dir = None                                                                                               │                                                        │
+│ │         ca_certs = '/etc/ssl/certs/ca-certificates.crt'                                                               │                                                        │
+│ │        cert_reqs = None                                                                                               │                                                        │
+│ │         certfile = None                                                                                               │                                                        │
+│ │          ciphers = None                                                                                               │                                                        │
+│ │          context = <ssl.SSLContext object at 0x7f9419940340>                                                          │                                                        │
+│ │     key_password = None                                                                                               │                                                        │
+│ │          keyfile = None                                                                                               │                                                        │
+│ │         send_sni = True                                                                                               │                                                        │
+│ │  server_hostname = 'briefcase-support.org'                                                                            │                                                        │
+│ │             sock = <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6> │                                                        │
+│ │      ssl_context = <ssl.SSLContext object at 0x7f9419940340>                                                          │                                                        │
+│ │      ssl_version = None                                                                                               │                                                        │
+│ │       tls_in_tls = False                                                                                              │                                                        │
+│ │ use_sni_hostname = True                                                                                               │                                                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                        │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/util/ssl_.py:493 in _ssl_wrap_socket_impl                                                                                                 │
+│                                                                                                                                                                                  │
+│   490 │   │   return SSLTransport(sock, ssl_context, server_hostname)                                                                                                            │
+│   491 │                                                                                                                                                                          │
+│   492 │   if server_hostname:                                                                                                                                                    │
+│ ❱ 493 │   │   return ssl_context.wrap_socket(sock, server_hostname=server_hostname)                                                                                              │
+│   494 │   else:                                                                                                                                                                  │
+│   495 │   │   return ssl_context.wrap_socket(sock)                                                                                                                               │
+│   496                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────╮                                                         │
+│ │ server_hostname = 'briefcase-support.org'                                                                            │                                                         │
+│ │            sock = <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6> │                                                         │
+│ │     ssl_context = <ssl.SSLContext object at 0x7f9419940340>                                                          │                                                         │
+│ │      tls_in_tls = False                                                                                              │                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                         │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.10/ssl.py:513 in wrap_socket                                                                                                                                    │
+│                                                                                                                                                                                  │
+│    510 │   │   │   │   │   server_hostname=None, session=None):                                                                                                                  │
+│    511 │   │   # SSLSocket class handles server_hostname encoding before it calls                                                                                                │
+│    512 │   │   # ctx._wrap_socket()                                                                                                                                              │
+│ ❱  513 │   │   return self.sslsocket_class._create(                                                                                                                              │
+│    514 │   │   │   sock=sock,                                                                                                                                                    │
+│    515 │   │   │   server_side=server_side,                                                                                                                                      │
+│    516 │   │   │   do_handshake_on_connect=do_handshake_on_connect,                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────╮                                                 │
+│ │ do_handshake_on_connect = True                                                                                               │                                                 │
+│ │                    self = <ssl.SSLContext object at 0x7f9419940340>                                                          │                                                 │
+│ │         server_hostname = 'briefcase-support.org'                                                                            │                                                 │
+│ │             server_side = False                                                                                              │                                                 │
+│ │                 session = None                                                                                               │                                                 │
+│ │                    sock = <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6> │                                                 │
+│ │    suppress_ragged_eofs = True                                                                                               │                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                 │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.10/ssl.py:1071 in _create                                                                                                                                       │
+│                                                                                                                                                                                  │
+│   1068 │   │   │   │   │   if timeout == 0.0:                                                                                                                                    │
+│   1069 │   │   │   │   │   │   # non-blocking                                                                                                                                    │
+│   1070 │   │   │   │   │   │   raise ValueError("do_handshake_on_connect should not be specifie                                                                                  │
+│ ❱ 1071 │   │   │   │   │   self.do_handshake()                                                                                                                                   │
+│   1072 │   │   │   except (OSError, ValueError):                                                                                                                                 │
+│   1073 │   │   │   │   self.close()                                                                                                                                              │
+│   1074 │   │   │   │   raise                                                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────╮                                               │
+│ │               __class__ = <class 'ssl.SSLSocket'>                                                                              │                                               │
+│ │                     cls = <class 'ssl.SSLSocket'>                                                                              │                                               │
+│ │               connected = True                                                                                                 │                                               │
+│ │                 context = <ssl.SSLContext object at 0x7f9419940340>                                                            │                                               │
+│ │ do_handshake_on_connect = True                                                                                                 │                                               │
+│ │                  kwargs = {'family': <AddressFamily.AF_INET: 2>, 'type': <SocketKind.SOCK_STREAM: 1>, 'proto': 6, 'fileno': 4} │                                               │
+│ │                    self = <ssl.SSLSocket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>   │                                               │
+│ │         server_hostname = 'briefcase-support.org'                                                                              │                                               │
+│ │             server_side = False                                                                                                │                                               │
+│ │                 session = None                                                                                                 │                                               │
+│ │                    sock = <socket.socket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6>   │                                               │
+│ │    suppress_ragged_eofs = True                                                                                                 │                                               │
+│ │                 timeout = None                                                                                                 │                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                               │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3.10/ssl.py:1342 in do_handshake                                                                                                                                  │
+│                                                                                                                                                                                  │
+│   1339 │   │   try:                                                                                                                                                              │
+│   1340 │   │   │   if timeout == 0.0 and block:                                                                                                                                  │
+│   1341 │   │   │   │   self.settimeout(None)                                                                                                                                     │
+│ ❱ 1342 │   │   │   self._sslobj.do_handshake()                                                                                                                                   │
+│   1343 │   │   finally:                                                                                                                                                          │
+│   1344 │   │   │   self.settimeout(timeout)                                                                                                                                      │
+│   1345                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                 │
+│ │   block = False                                                                                              │                                                                 │
+│ │    self = <ssl.SSLSocket [closed] fd=-1, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6> │                                                                 │
+│ │ timeout = None                                                                                               │                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+SSLZeroReturnError: TLS/SSL connection has been closed (EOF) (_ssl.c:997)
+
+During handling of the above exception, another exception occurred:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/lib/python3/dist-packages/requests/adapters.py:440 in send                                                                                                                  │
+│                                                                                                                                                                                  │
+│   437 │   │                                                                                                                                                                      │
+│   438 │   │   try:                                                                                                                                                               │
+│   439 │   │   │   if not chunked:                                                                                                                                                │
+│ ❱ 440 │   │   │   │   resp = conn.urlopen(                                                                                                                                       │
+│   441 │   │   │   │   │   method=request.method,                                                                                                                                 │
+│   442 │   │   │   │   │   url=url,                                                                                                                                               │
+│   443 │   │   │   │   │   body=request.body,                                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────── locals ─────────────────────────────────────╮                                                                                              │
+│ │    cert = None                                                                  │                                                                                              │
+│ │ chunked = False                                                                 │                                                                                              │
+│ │    conn = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520> │                                                                                              │
+│ │ proxies = OrderedDict()                                                         │                                                                                              │
+│ │ request = <PreparedRequest [GET]>                                               │                                                                                              │
+│ │    self = <requests.adapters.HTTPAdapter object at 0x7f94198ef6a0>              │                                                                                              │
+│ │  stream = True                                                                  │                                                                                              │
+│ │ timeout = Timeout(connect=None, read=None, total=None)                          │                                                                                              │
+│ │     url = '/python?platform=android&version=3.10'                               │                                                                                              │
+│ │  verify = True                                                                  │                                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────╯                                                                                              │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/connectionpool.py:786 in urlopen                                                                                                          │
+│                                                                                                                                                                                  │
+│    783 │   │   │   elif isinstance(e, (SocketError, HTTPException)):                                                                                                             │
+│    784 │   │   │   │   e = ProtocolError("Connection aborted.", e)                                                                                                               │
+│    785 │   │   │                                                                                                                                                                 │
+│ ❱  786 │   │   │   retries = retries.increment(                                                                                                                                  │
+│    787 │   │   │   │   method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]                                                                                           │
+│    788 │   │   │   )                                                                                                                                                             │
+│    789 │   │   │   retries.sleep()                                                                                                                                               │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────────────╮        │
+│ │ _is_ssl_error_message_from_http_proxy = <function HTTPConnectionPool.urlopen.<locals>._is_ssl_error_message_from_http_proxy at 0x7f94198f7760>                        │        │
+│ │                      assert_same_host = False                                                                                                                         │        │
+│ │                                  body = None                                                                                                                          │        │
+│ │                              body_pos = None                                                                                                                          │        │
+│ │                               chunked = False                                                                                                                         │        │
+│ │                            clean_exit = False                                                                                                                         │        │
+│ │                                  conn = None                                                                                                                          │        │
+│ │                    destination_scheme = None                                                                                                                          │        │
+│ │                                   err = None                                                                                                                          │        │
+│ │                               headers = {'User-Agent': 'python-requests/2.27.1', 'Accept-Encoding': 'gzip, deflate, br', 'Accept': '*/*', 'Connection': 'keep-alive'} │        │
+│ │                  http_tunnel_required = False                                                                                                                         │        │
+│ │                     is_new_proxy_conn = False                                                                                                                         │        │
+│ │                                method = 'GET'                                                                                                                         │        │
+│ │                            parsed_url = Url(scheme=None, auth=None, host=None, port=None, path='/python', query='platform=android&version=3.10', fragment=None)       │        │
+│ │                          pool_timeout = None                                                                                                                          │        │
+│ │                              redirect = False                                                                                                                         │        │
+│ │                          release_conn = False                                                                                                                         │        │
+│ │                     release_this_conn = True                                                                                                                          │        │
+│ │                           response_kw = {'preload_content': False, 'decode_content': False}                                                                           │        │
+│ │                               retries = Retry(total=0, connect=None, read=False, redirect=None, status=None)                                                          │        │
+│ │                                  self = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520>                                                         │        │
+│ │                               timeout = Timeout(connect=None, read=None, total=None)                                                                                  │        │
+│ │                           timeout_obj = Timeout(connect=None, read=None, total=None)                                                                                  │        │
+│ │                                   url = '/python?platform=android&version=3.10'                                                                                       │        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯        │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/urllib3/util/retry.py:592 in increment                                                                                                            │
+│                                                                                                                                                                                  │
+│   589 │   │   )                                                                                                                                                                  │
+│   590 │   │                                                                                                                                                                      │
+│   591 │   │   if new_retry.is_exhausted():                                                                                                                                       │
+│ ❱ 592 │   │   │   raise MaxRetryError(_pool, url, error or ResponseError(cause))                                                                                                 │
+│   593 │   │                                                                                                                                                                      │
+│   594 │   │   log.debug("Incremented Retry for (url='%s'): %r", url, new_retry)                                                                                                  │
+│   595                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────╮                                                  │
+│ │             _pool = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520>                                   │                                                  │
+│ │       _stacktrace = <traceback object at 0x7f941a5b01c0>                                                                    │                                                  │
+│ │             cause = 'unknown'                                                                                               │                                                  │
+│ │           connect = None                                                                                                    │                                                  │
+│ │             error = SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:997)'))                │                                                  │
+│ │           history = (                                                                                                       │                                                  │
+│ │                     │   RequestHistory(                                                                                     │                                                  │
+│ │                     │   │   method='GET',                                                                                   │                                                  │
+│ │                     │   │   url='/python?platform=android&version=3.10',                                                    │                                                  │
+│ │                     │   │   error=SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:997)')), │                                                  │
+│ │                     │   │   status=None,                                                                                    │                                                  │
+│ │                     │   │   redirect_location=None                                                                          │                                                  │
+│ │                     │   ),                                                                                                  │                                                  │
+│ │                     )                                                                                                       │                                                  │
+│ │            method = 'GET'                                                                                                   │                                                  │
+│ │         new_retry = Retry(total=-1, connect=None, read=False, redirect=None, status=None)                                   │                                                  │
+│ │             other = None                                                                                                    │                                                  │
+│ │              read = False                                                                                                   │                                                  │
+│ │          redirect = None                                                                                                    │                                                  │
+│ │ redirect_location = None                                                                                                    │                                                  │
+│ │          response = None                                                                                                    │                                                  │
+│ │              self = Retry(total=0, connect=None, read=False, redirect=None, status=None)                                    │                                                  │
+│ │            status = None                                                                                                    │                                                  │
+│ │      status_count = None                                                                                                    │                                                  │
+│ │             total = -1                                                                                                      │                                                  │
+│ │               url = '/python?platform=android&version=3.10'                                                                 │                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                  │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+MaxRetryError: HTTPSConnectionPool(host='briefcase-support.org', port=443): Max retries exceeded with url: /python?platform=android&version=3.10 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:997)')))
+
+During handling of the above exception, another exception occurred:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/create.py:378 in _download_support_package                                                                            │
+│                                                                                                                                                                                  │
+│   375 │   │   │   │                                                                                                                                                              │
+│   376 │   │   │   │   # Download the support file, caching the result                                                                                                            │
+│   377 │   │   │   │   # in the user's briefcase support cache directory.                                                                                                         │
+│ ❱ 378 │   │   │   │   return self.download_url(                                                                                                                                  │
+│   379 │   │   │   │   │   url=support_package_url,                                                                                                                               │
+│   380 │   │   │   │   │   download_path=download_path,                                                                                                                           │
+│   381 │   │   │   │   )                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                   │
+│ │                    app = <com.example.helloworld v0.0.1 AppConfig>                                         │                                                                   │
+│ │ custom_support_package = False                                                                             │                                                                   │
+│ │          download_path = PosixPath('/root/.cache/briefcase/support')                                       │                                                                   │
+│ │                   self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                   │
+│ │    support_package_url = 'https://briefcase-support.org/python?platform=android&version=3.10'              │                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                   │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/base.py:633 in download_url                                                                                           │
+│                                                                                                                                                                                  │
+│   630 │   │   """                                                                                                                                                                │
+│   631 │   │   download_path.mkdir(parents=True, exist_ok=True)                                                                                                                   │
+│   632 │   │                                                                                                                                                                      │
+│ ❱ 633 │   │   response = self.requests.get(url, stream=True)                                                                                                                     │
+│   634 │   │   if response.status_code == 404:                                                                                                                                    │
+│   635 │   │   │   raise MissingNetworkResourceError(url=url)                                                                                                                     │
+│   636 │   │   elif response.status_code != 200:                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │ download_path = PosixPath('/root/.cache/briefcase/support')                                       │                                                                            │
+│ │          self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                            │
+│ │           url = 'https://briefcase-support.org/python?platform=android&version=3.10'              │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/requests/api.py:75 in get                                                                                                                         │
+│                                                                                                                                                                                  │
+│    72 │   :rtype: requests.Response                                                           ╭─────────────────────────────────── locals ────────────────────────────────────╮  │
+│    73 │   """                                                                                 │ kwargs = {'stream': True}                                                     │  │
+│    74 │                                                                                       │ params = None                                                                 │  │
+│ ❱  75 │   return request('get', url, params=params, **kwargs)                                 │    url = 'https://briefcase-support.org/python?platform=android&version=3.10' │  │
+│    76                                                                                         ╰───────────────────────────────────────────────────────────────────────────────╯  │
+│    77                                                                                                                                                                            │
+│    78 def options(url, **kwargs):                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/requests/api.py:61 in request                                                                                                                     │
+│                                                                                                                                                                                  │
+│    58 │   # avoid leaving sockets open which can trigger a ResourceWarning in some            ╭──────────────────────────────────── locals ────────────────────────────────────╮ │
+│    59 │   # cases, and look like a memory leak in others.                                     │  kwargs = {'params': None, 'stream': True}                                     │ │
+│    60 │   with sessions.Session() as session:                                                 │  method = 'get'                                                                │ │
+│ ❱  61 │   │   return session.request(method=method, url=url, **kwargs)                        │ session = <requests.sessions.Session object at 0x7f941a392cb0>                 │ │
+│    62                                                                                         │     url = 'https://briefcase-support.org/python?platform=android&version=3.10' │ │
+│    63                                                                                         ╰────────────────────────────────────────────────────────────────────────────────╯ │
+│    64 def get(url, params=None, **kwargs):                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/requests/sessions.py:529 in request                                                                                                               │
+│                                                                                                                                                                                  │
+│   526 │   │   │   'allow_redirects': allow_redirects,                                                                                                                            │
+│   527 │   │   }                                                                                                                                                                  │
+│   528 │   │   send_kwargs.update(settings)                                                                                                                                       │
+│ ❱ 529 │   │   resp = self.send(prep, **send_kwargs)                                                                                                                              │
+│   530 │   │                                                                                                                                                                      │
+│   531 │   │   return resp                                                                                                                                                        │
+│   532                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────╮                                         │
+│ │ allow_redirects = True                                                                                                               │                                         │
+│ │            auth = None                                                                                                               │                                         │
+│ │            cert = None                                                                                                               │                                         │
+│ │         cookies = None                                                                                                               │                                         │
+│ │            data = None                                                                                                               │                                         │
+│ │           files = None                                                                                                               │                                         │
+│ │         headers = None                                                                                                               │                                         │
+│ │           hooks = None                                                                                                               │                                         │
+│ │            json = None                                                                                                               │                                         │
+│ │          method = 'get'                                                                                                              │                                         │
+│ │          params = None                                                                                                               │                                         │
+│ │            prep = <PreparedRequest [GET]>                                                                                            │                                         │
+│ │         proxies = {}                                                                                                                 │                                         │
+│ │             req = <Request [GET]>                                                                                                    │                                         │
+│ │            self = <requests.sessions.Session object at 0x7f941a392cb0>                                                               │                                         │
+│ │     send_kwargs = {'timeout': None, 'allow_redirects': True, 'verify': True, 'proxies': OrderedDict(), 'stream': True, 'cert': None} │                                         │
+│ │        settings = {'verify': True, 'proxies': OrderedDict(), 'stream': True, 'cert': None}                                           │                                         │
+│ │          stream = True                                                                                                               │                                         │
+│ │         timeout = None                                                                                                               │                                         │
+│ │             url = 'https://briefcase-support.org/python?platform=android&version=3.10'                                               │                                         │
+│ │          verify = None                                                                                                               │                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                         │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/requests/sessions.py:645 in send                                                                                                                  │
+│                                                                                                                                                                                  │
+│   642 │   │   start = preferred_clock()                                                                                                                                          │
+│   643 │   │                                                                                                                                                                      │
+│   644 │   │   # Send the request                                                                                                                                                 │
+│ ❱ 645 │   │   r = adapter.send(request, **kwargs)                                                                                                                                │
+│   646 │   │                                                                                                                                                                      │
+│   647 │   │   # Total elapsed time of the request (approximately)                                                                                                                │
+│   648 │   │   elapsed = preferred_clock() - start                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ───────────────────────────────────────────────────╮                                                                  │
+│ │         adapter = <requests.adapters.HTTPAdapter object at 0x7f94198ef6a0>                                  │                                                                  │
+│ │ allow_redirects = True                                                                                      │                                                                  │
+│ │           hooks = {'response': []}                                                                          │                                                                  │
+│ │          kwargs = {'timeout': None, 'verify': True, 'proxies': OrderedDict(), 'stream': True, 'cert': None} │                                                                  │
+│ │         request = <PreparedRequest [GET]>                                                                   │                                                                  │
+│ │            self = <requests.sessions.Session object at 0x7f941a392cb0>                                      │                                                                  │
+│ │           start = 1663513059.0909035                                                                        │                                                                  │
+│ │          stream = True                                                                                      │                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                  │
+│                                                                                                                                                                                  │
+│ /usr/lib/python3/dist-packages/requests/adapters.py:517 in send                                                                                                                  │
+│                                                                                                                                                                                  │
+│   514 │   │   │                                                                                                                                                                  │
+│   515 │   │   │   if isinstance(e.reason, _SSLError):                                                                                                                            │
+│   516 │   │   │   │   # This branch is for urllib3 v1.22 and later.                                                                                                              │
+│ ❱ 517 │   │   │   │   raise SSLError(e, request=request)                                                                                                                         │
+│   518 │   │   │                                                                                                                                                                  │
+│   519 │   │   │   raise ConnectionError(e, request=request)                                                                                                                      │
+│   520                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────── locals ─────────────────────────────────────╮                                                                                              │
+│ │    cert = None                                                                  │                                                                                              │
+│ │ chunked = False                                                                 │                                                                                              │
+│ │    conn = <urllib3.connectionpool.HTTPSConnectionPool object at 0x7f94198ef520> │                                                                                              │
+│ │ proxies = OrderedDict()                                                         │                                                                                              │
+│ │ request = <PreparedRequest [GET]>                                               │                                                                                              │
+│ │    self = <requests.adapters.HTTPAdapter object at 0x7f94198ef6a0>              │                                                                                              │
+│ │  stream = True                                                                  │                                                                                              │
+│ │ timeout = Timeout(connect=None, read=None, total=None)                          │                                                                                              │
+│ │     url = '/python?platform=android&version=3.10'                               │                                                                                              │
+│ │  verify = True                                                                  │                                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────╯                                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+SSLError: HTTPSConnectionPool(host='briefcase-support.org', port=443): Max retries exceeded with url: /python?platform=android&version=3.10 (Caused by SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:997)')))
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/local/lib/python3.10/dist-packages/briefcase/__main__.py:15 in main                                                                                                         │
+│                                                                                                                                                                                  │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                                                                                                      │
+│   13 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   14 │   │   command.parse_config("pyproject.toml")                                                                                                                              │
+│ ❱ 15 │   │   command(**options)                                                                                                                                                  │
+│   16 │   │   result = 0                                                                                                                                                          │
+│   17 │   except HelpText as e:                                                                                                                                                   │
+│   18 │   │   log.info()                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                  │
+│ │ command = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                                  │
+│ │       e = NetworkFailure('downloading support package')                                     │                                                                                  │
+│ │     log = <briefcase.console.Log object at 0x7f941c2a8730>                                  │                                                                                  │
+│ │ options = {}                                                                                │                                                                                  │
+│ │  result = 200                                                                               │                                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                  │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/create.py:709 in __call__                                                                                             │
+│                                                                                                                                                                                  │
+│   706 │   │   else:                                                                                                                                                              │
+│   707 │   │   │   state = None                                                                                                                                                   │
+│   708 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                │
+│ ❱ 709 │   │   │   │   state = self.create_app(app, **full_options(state, options))                                                                                               │
+│   710 │   │                                                                                                                                                                      │
+│   711 │   │   return state                                                                                                                                                       │
+│   712                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                 │
+│ │      app = <com.example.helloworld v0.0.1 AppConfig>                                         │                                                                                 │
+│ │ app_name = 'helloworld'                                                                      │                                                                                 │
+│ │  options = {}                                                                                │                                                                                 │
+│ │     self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                                 │
+│ │    state = None                                                                              │                                                                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                 │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/create.py:676 in create_app                                                                                           │
+│                                                                                                                                                                                  │
+│   673 │   │   self.generate_app_template(app=app)                                                                                                                                │
+│   674 │   │                                                                                                                                                                      │
+│   675 │   │   self.logger.info("Installing support package...", prefix=app.app_name)                                                                                             │
+│ ❱ 676 │   │   self.install_app_support_package(app=app)                                                                                                                          │
+│   677 │   │                                                                                                                                                                      │
+│   678 │   │   self.logger.info("Installing dependencies...", prefix=app.app_name)                                                                                                │
+│   679 │   │   self.install_app_dependencies(app=app)                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                              │
+│ │         app = <com.example.helloworld v0.0.1 AppConfig>                                         │                                                                              │
+│ │ bundle_path = PosixPath('/home/kali/helloworld/android/gradle/Hello World')                     │                                                                              │
+│ │     options = {}                                                                                │                                                                              │
+│ │        self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                              │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                              │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/create.py:327 in install_app_support_package                                                                          │
+│                                                                                                                                                                                  │
+│   324 │   │   except KeyError:                                                                                                                                                   │
+│   325 │   │   │   self.logger.info("No support package required.")                                                                                                               │
+│   326 │   │   else:                                                                                                                                                              │
+│ ❱ 327 │   │   │   support_file_path = self._download_support_package(app)                                                                                                        │
+│   328 │   │   │   self._unpack_support_package(support_file_path, support_path)                                                                                                  │
+│   329 │                                                                                                                                                                          │
+│   330 │   def _download_support_package(self, app):                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ─────────────────────────────────────────────╮                                                                             │
+│ │          app = <com.example.helloworld v0.0.1 AppConfig>                                         │                                                                             │
+│ │         self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                             │
+│ │ support_path = PosixPath('/home/kali/helloworld/android/gradle/Hello World/app')                 │                                                                             │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                             │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/create.py:395 in _download_support_package                                                                            │
+│                                                                                                                                                                                  │
+│   392 │   │   │   │   ) from e                                                                                                                                                   │
+│   393 │   │                                                                                                                                                                      │
+│   394 │   │   except requests_exceptions.ConnectionError as e:                                                                                                                   │
+│ ❱ 395 │   │   │   raise NetworkFailure("downloading support package") from e                                                                                                     │
+│   396 │                                                                                                                                                                          │
+│   397 │   def _write_requirements_file(self, app: BaseConfig, requirements_path):                                                                                                │
+│   398 │   │   """Configure application dependencies by writing a requirements.txt                                                                                                │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────────────── locals ──────────────────────────────────────────────────╮                                                                   │
+│ │                    app = <com.example.helloworld v0.0.1 AppConfig>                                         │                                                                   │
+│ │ custom_support_package = False                                                                             │                                                                   │
+│ │          download_path = PosixPath('/root/.cache/briefcase/support')                                       │                                                                   │
+│ │                   self = <briefcase.platforms.android.gradle.GradleCreateCommand object at 0x7f941a5abfd0> │                                                                   │
+│ │    support_package_url = 'https://briefcase-support.org/python?platform=android&version=3.10'              │                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                   │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+NetworkFailure: Unable to downloading support package; is your computer offline?

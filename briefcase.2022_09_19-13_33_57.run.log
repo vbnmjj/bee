@@ -1,0 +1,305 @@
+Date/Time:       2022-09-19 13:33:57 
+Command line:    /usr/local/bin/briefcase run android
+
+OS Release:      Linux 5.18.0-kali7-amd64
+OS Version:      #1 SMP PREEMPT_DYNAMIC Debian 5.18.16-1kali1 (2022-08-31)
+Architecture:    x86_64
+Platform:        Linux-5.18.0-kali7-amd64-x86_64-with-glibc2.34
+
+Python exe:      /usr/bin/python3
+Python version:  3.10.7 (main, Sep  8 2022, 14:34:29) [GCC 12.2.0]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.9
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    CLUTTER_IM_MODULE=ibus
+    COLORFGBG=15;0
+    COLORTERM=truecolor
+    COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+    DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+    DESKTOP_SESSION=lightdm-xsession
+    DISPLAY=:0.0
+    DOTNET_CLI_TELEMETRY_OPTOUT=1
+    GDMSESSION=lightdm-xsession
+    GTK_IM_MODULE=ibus
+    GTK_MODULES=gail:atk-bridge
+    HOME=/root
+    LANG=en_HK.UTF-8
+    LANGUAGE=en_HK:en
+    LESS_TERMCAP_mb=[1;31m
+    LESS_TERMCAP_md=[1;36m
+    LESS_TERMCAP_me=[0m
+    LESS_TERMCAP_se=[0m
+    LESS_TERMCAP_so=[01;33m
+    LESS_TERMCAP_ue=[0m
+    LESS_TERMCAP_us=[1;32m
+    LOGNAME=root
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow=30;44:
+    OLDPWD=/root
+    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+    POWERSHELL_TELEMETRY_OPTOUT=1
+    POWERSHELL_UPDATECHECK=Off
+    PWD=/home/kali/helloworld
+    QT_ACCESSIBILITY=1
+    QT_AUTO_SCREEN_SCALE_FACTOR=0
+    QT_IM_MODULE=ibus
+    QT_QPA_PLATFORMTHEME=qt5ct
+    SESSION_MANAGER=local/kali:@/tmp/.ICE-unix/1300,unix/kali:/tmp/.ICE-unix/1300
+    SHELL=/usr/bin/zsh
+    SHLVL=1
+    SSH_AGENT_PID=1363
+    SSH_AUTH_SOCK=/tmp/ssh-XXXXXXn1bqvE/agent.1300
+    TERM=xterm-256color
+    USER=root
+    WINDOWID=0
+    XAUTHORITY=/root/.Xauthority
+    XDG_CONFIG_DIRS=/etc/xdg
+    XDG_CURRENT_DESKTOP=XFCE
+    XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
+    XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/root
+    XDG_MENU_PREFIX=xfce-
+    XDG_RUNTIME_DIR=/run/user/0
+    XDG_SEAT=seat0
+    XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+    XDG_SESSION_CLASS=user
+    XDG_SESSION_DESKTOP=lightdm-xsession
+    XDG_SESSION_ID=2
+    XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+    XDG_SESSION_TYPE=x11
+    XDG_VTNR=7
+    XMODIFIERS=@im=ibus
+    _=/usr/local/bin/briefcase
+    _JAVA_OPTIONS=-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+
+Briefcase Log:
+[13:33:45]                                                                                                                                                         subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/cmdline-tools/latest/bin/sdkmanager --list_installed                                                   subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Environment Overrides:                                                                                                                              subprocess.py:461
+           >>>     ANDROID_SDK_ROOT=/root/.cache/briefcase/tools/android_sdk                                                                                       subprocess.py:463
+           >>>     JAVA_HOME=/root/.cache/briefcase/tools/java                                                                                                     subprocess.py:463
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     Loading package information...                                                                                                                  subprocess.py:470
+           >>>     Loading local repository...                                                                                                                     subprocess.py:470
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:470
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:470
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:470
+           >>>     Installed packages:                                                                                                                             subprocess.py:470
+           >>>       Path                                    | Version      | Description                     | Location                                           subprocess.py:470
+           >>>       -------                                 | -------      | -------                         | -------                                            subprocess.py:470
+           >>>       build-tools;30.0.2                      | 30.0.2       | Android SDK Build-Tools 30.0.2  | build-tools/30.0.2                                 subprocess.py:470
+           >>>       cmake;3.10.2.4988404                    | 3.10.2       | CMake 3.10.2.4988404            | cmake/3.10.2.4988404                               subprocess.py:470
+           >>>       emulator                                | 31.3.10      | Android Emulator                | emulator                                           subprocess.py:470
+           >>>       ndk;21.4.7075529                        | 21.4.7075529 | NDK (Side by side) 21.4.7075529 | ndk/21.4.7075529                                   subprocess.py:470
+           >>>       patcher;v4                              | 1            | SDK Patch Applier v4            | patcher/v4                                         subprocess.py:470
+           >>>       platform-tools                          | 33.0.3       | Android SDK Platform-Tools      | platform-tools                                     subprocess.py:470
+           >>>       platforms;android-32                    | 1            | Android SDK Platform 32         | platforms/android-32                               subprocess.py:470
+           >>>       system-images;android-31;default;x86_64 | 3            | Intel x86 Atom_64 System Image  | system-images/android-31/default/x86_64            subprocess.py:470
+           >>>                                                                                                                                                     subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+           >>> Android emulator is already installed.                                                                                                             android_sdk.py:423
+                                                                                                                                                                   subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/platform-tools/adb devices -l                                                                          subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     List of devices attached                                                                                                                        subprocess.py:470
+           >>>                                                                                                                                                     subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+                                                                                                                                                                   subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/emulator/emulator -list-avds                                                                           subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     beephone                                                                                                                                        subprocess.py:470
+           >>>     hellophone                                                                                                                                      subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+                                                                                                                                                                  android_sdk.py:777
+           Select device:                                                                                                                                         android_sdk.py:778
+                                                                                                                                                                  android_sdk.py:779
+             1) @beephone (emulator)                                                                                                                                  console.py:493
+             2) @hellophone (emulator)                                                                                                                                console.py:493
+             3) Create a new Android emulator                                                                                                                         console.py:493
+                                                                                                                                                                      console.py:495
+[13:33:53] >                                                                                                                                                          console.py:498
+           >>> User input: 1                                                                                                                                          console.py:498
+                                                                                                                                                                  android_sdk.py:823
+           In future, you can specify this device by running:                                                                                                     android_sdk.py:823
+                                                                                                                                                                  android_sdk.py:823
+               $ briefcase run android -d @beephone                                                                                                               android_sdk.py:823
+           >>> Device skin 'pixel_3a' already exists.                                                                                                             android_sdk.py:584
+                                                                                                                                                                       gradle.py:193
+           [helloworld] Starting emulator beephone...                                                                                                                  gradle.py:193
+                                                                                                                                                                   subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/emulator/emulator -list-avds                                                                           subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     beephone                                                                                                                                        subprocess.py:470
+           >>>     hellophone                                                                                                                                      subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+                                                                                                                                                                   subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/emulator/emulator @beephone -dns-server 8.8.8.8                                                        subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Environment Overrides:                                                                                                                              subprocess.py:461
+           >>>     ANDROID_SDK_ROOT=/root/.cache/briefcase/tools/android_sdk                                                                                       subprocess.py:463
+           >>>     JAVA_HOME=/root/.cache/briefcase/tools/java                                                                                                     subprocess.py:463
+                                                                                                                                                                   subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/platform-tools/adb devices -l                                                                          subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     List of devices attached                                                                                                                        subprocess.py:470
+           >>>                                                                                                                                                     subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+[13:33:55]                                                                                                                                                         subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/platform-tools/adb devices -l                                                                          subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     List of devices attached                                                                                                                        subprocess.py:470
+           >>>     emulator-5554          offline transport_id:15                                                                                                  subprocess.py:470
+           >>>                                                                                                                                                     subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+[13:33:57] Starting emulator...                                                                                                                                  android_sdk.py:1021
+           INFO    | Android emulator version 31.3.10.0 (build_id 8807927) (CL:N/A)                                                                              android_sdk.py:1086
+           emulator: INFO: Found systemPath /root/.cache/briefcase/tools/android_sdk/system-images/android-31/default/x86_64/                                    android_sdk.py:1086
+           WARNING | unexpected system image feature string, emulator might not function correctly, please try updating the emulator.                            android_sdk.py:1086
+           WARNING | Failed to process .ini file /root/.android/avd/beephone.avd/quickbootChoice.ini for reading.                                                android_sdk.py:1086
+           WARNING | cannot add library /root/.cache/briefcase/tools/android_sdk/emulator/qemu/linux-x86_64/lib64/vulkan/libvulkan.so: failed                    android_sdk.py:1086
+           INFO    | Duplicate loglines will be removed, if you wish to see each indiviudal line launch with the -log-nofilter flag.                             android_sdk.py:1086
+           INFO    | added library /root/.cache/briefcase/tools/android_sdk/emulator/lib64/vulkan/libvulkan.so                                                   android_sdk.py:1086
+           INFO    | configAndStartRenderer: setting vsync to 60 hz                                                                                              android_sdk.py:1086
+           INFO    | Sending adb public key [QAAAAP21kDyrMENoXbzfwuci6/CL6A9OcyzHrWsmuJfc36FTbJWBSOHrQPXFg+N464b0X2QamG8G9EdC8iK8776zyWDM82Z1X9bU3BOriwld/Hge86Q android_sdk.py:1086
+           45CYbXdI0iCqTD3Xl0DspN9Fy+SgN9TwmQpRB4r5k1Ee+iuwLoX/IGA6JrymshKBSGxAB1i+yMys71OOR7ZBgrwKxDg10YiQvbRK5W3wA58xvb/5eZIgb9vklQGwgVrQWkbVJKZCbNin0VFUsWNHN                    
+           daVCQjhvQtyN5iSduvU32qA2nUKxbqvsaNCajfc7cS3xZFOiqWA6uEGceNTkwYu9wL08HrOclm8HNtEUNsN8+WO8UU8kyNnvpIzyGQj5NLPYecEsihE0Xr6soZDjzLCTcKc2G0Fw7ZXfimwwyKrTf                    
+           d14XDSICHmr2QgAtL2IDuuDiGJPoA3KaeFmBMKveXeBhtnslVyp8/d2haY+63fOnc65UkTVsPCit5VMYCDiaYSt+IGmmFg6Bzdo4ulMRFeUX06lBXKEooGZyMfQGvybXXBHQbD+Zcv2HSGyuYIFTg                    
+           ddzJVC6+PWQNzev+dpz/WvxuVCgWq3PxNSBtTFQjnEBLI3Wrmv6u+eK6OtVrkagGLaj3fAbNSBL2GbwphSrvrhS7ilXYHZ37ry7sfbWafhWwyXNnE4R8GQOSjSZB/JT1Z4PgEAAQA=                               
+           root@unknown]                                                                                                                                                            
+           INFO    | injectedQemuChannel!                                                                                                                        android_sdk.py:1086
+           INFO    | Informing listeners of injection.                                                                                                           android_sdk.py:1086
+           INFO    | Rootcanal has  been activated.                                                                                                              android_sdk.py:1086
+           WARNING | *** No gRPC protection active, consider launching with the -grpc-use-jwt flag.***                                                           android_sdk.py:1086
+           INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: none                                                                          android_sdk.py:1086
+           INFO    | Advertising in: /run/user/0/avd/running/pid_19168.ini                                                                                       android_sdk.py:1086
+           INFO    | setDisplayConfigs w 1080 h 2220 dpiX 420 dpiY 420                                                                                           android_sdk.py:1086
+           [19168:19168:0919/133356.472991:ERROR:zygote_host_impl_linux.cc(89)] Running as root without --no-sandbox is not supported. See                       android_sdk.py:1086
+           https://crbug.com/638180.                                                                                                                                                
+                                                                                                                                                                      __main__.py:22
+           Android emulator was unable to start!                                                                                                                      __main__.py:23
+                                                                                                                                                                      __main__.py:23
+           Try starting the emulator manually by running:                                                                                                             __main__.py:23
+                                                                                                                                                                      __main__.py:23
+               $ /root/.cache/briefcase/tools/android_sdk/emulator/emulator @beephone -dns-server 8.8.8.8                                                             __main__.py:23
+                                                                                                                                                                      __main__.py:23
+           Resolve any problems you discover, then try running your app again. You may                                                                                __main__.py:23
+           find this page helpful in diagnosing emulator problems.                                                                                                    __main__.py:23
+                                                                                                                                                                      __main__.py:23
+               https://developer.android.com/studio/run/emulator-acceleration#accel-vm                                                                                __main__.py:23
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/local/lib/python3.10/dist-packages/briefcase/__main__.py:15 in main                                                                                                         │
+│                                                                                                                                                                                  │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                                                                                                      │
+│   13 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   14 │   │   command.parse_config("pyproject.toml")                                                                                                                              │
+│ ❱ 15 │   │   command(**options)                                                                                                                                                  │
+│   16 │   │   result = 0                                                                                                                                                          │
+│   17 │   except HelpText as e:                                                                                                                                                   │
+│   18 │   │   log.info()                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │ command = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fccc8111de0>                                                                                     │ │
+│ │       e = BriefcaseCommandError('Android emulator was unable to start!\n\nTry starting the emulator manually by running:\n\n    $                                            │ │
+│ │           /root/.cache/briefcase/tools/android_sdk/emulator/emulator @beephone -dns-server 8.8.8.8\n\nResolve any problems you discover, then try running your app again.    │ │
+│ │           You may\nfind this page helpful in diagnosing emulator problems.\n\n    https://developer.android.com/studio/run/emulator-acceleration#accel-vm\n')                │ │
+│ │     log = <briefcase.console.Log object at 0x7fccca0a8730>                                                                                                                   │ │
+│ │ options = {'appname': None, 'update': False, 'device_or_avd': None}                                                                                                          │ │
+│ │  result = 200                                                                                                                                                                │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/run.py:66 in __call__                                                                                                 │
+│                                                                                                                                                                                  │
+│   63 │   │   else:                                                                                                                                                               │
+│   64 │   │   │   state = None                                                                                                                                                    │
+│   65 │   │                                                                                                                                                                       │
+│ ❱ 66 │   │   state = self.run_app(app, **full_options(state, options))                                                                                                           │
+│   67 │   │                                                                                                                                                                       │
+│   68 │   │   return state                                                                                                                                                        │
+│   69                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────────────────── locals ─────────────────────────────────────────────────────────╮                                                      │
+│ │           app = <com.example.helloworld v0.0.1 AppConfig>                                                               │                                                      │
+│ │       appname = None                                                                                                    │                                                      │
+│ │   binary_file = PosixPath('/home/kali/helloworld/android/gradle/Hello World/app/build/outputs/apk/debug/app-debug.apk') │                                                      │
+│ │       options = {'device_or_avd': None}                                                                                 │                                                      │
+│ │          self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fccc8111de0>                          │                                                      │
+│ │         state = None                                                                                                    │                                                      │
+│ │ template_file = PosixPath('/home/kali/helloworld/android/gradle/Hello World')                                           │                                                      │
+│ │        update = False                                                                                                   │                                                      │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                                      │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/platforms/android/gradle.py:194 in run_app                                                                                     │
+│                                                                                                                                                                                  │
+│   191 │   │   │   │   self.android_sdk.verify_avd(avd)                                                                                                                           │
+│   192 │   │   │                                                                                                                                                                  │
+│   193 │   │   │   self.logger.info(f"Starting emulator {avd}...", prefix=app.app_name)                                                                                           │
+│ ❱ 194 │   │   │   device, name = self.android_sdk.start_emulator(avd)                                                                                                            │
+│   195 │   │                                                                                                                                                                      │
+│   196 │   │   self.logger.info(                                                                                                                                                  │
+│   197 │   │   │   f"Starting app on {name} (device ID {device})", prefix=app.app_name                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │           app = <com.example.helloworld v0.0.1 AppConfig>                                      │                                                                               │
+│ │           avd = 'beephone'                                                                     │                                                                               │
+│ │        device = None                                                                           │                                                                               │
+│ │ device_or_avd = None                                                                           │                                                                               │
+│ │        kwargs = {}                                                                             │                                                                               │
+│ │          name = '@beephone (emulator)'                                                         │                                                                               │
+│ │          self = <briefcase.platforms.android.gradle.GradleRunCommand object at 0x7fccc8111de0> │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/integrations/android_sdk.py:1026 in start_emulator                                                                             │
+│                                                                                                                                                                                  │
+│   1023 │   │   │   │   known_devices = set()                                                                                                                                     │
+│   1024 │   │   │   │   while adb is None:                                                                                                                                        │
+│   1025 │   │   │   │   │   if emulator_popen.poll() is not None:                                                                                                                 │
+│ ❱ 1026 │   │   │   │   │   │   raise BriefcaseCommandError(                                                                                                                      │
+│   1027 │   │   │   │   │   │   │   f"""\                                                                                                                                         │
+│   1028 Android emulator was unable to start!                                                                                                                                     │
+│   1029                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │            adb = None                                                                             │                                                                            │
+│ │            avd = 'beephone'                                                                       │                                                                            │
+│ │        details = {'name': 'Unknown device (offline)', 'authorized': False}                        │                                                                            │
+│ │         device = 'emulator-5554'                                                                  │                                                                            │
+│ │ emulator_popen = <Popen: returncode: -11 args: ['/root/.cache/briefcase/tools/android_sdk/emu...> │                                                                            │
+│ │  known_devices = set()                                                                            │                                                                            │
+│ │           self = <briefcase.integrations.android_sdk.AndroidSDK object at 0x7fccc8121090>         │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Android emulator was unable to start!
+
+Try starting the emulator manually by running:
+
+    $ /root/.cache/briefcase/tools/android_sdk/emulator/emulator @beephone -dns-server 8.8.8.8
+
+Resolve any problems you discover, then try running your app again. You may
+find this page helpful in diagnosing emulator problems.
+
+    https://developer.android.com/studio/run/emulator-acceleration#accel-vm
+

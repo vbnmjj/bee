@@ -1,0 +1,289 @@
+Date/Time:       2022-09-18 22:59:05 
+Command line:    /usr/local/bin/briefcase build android
+
+OS Release:      Linux 5.18.0-kali7-amd64
+OS Version:      #1 SMP PREEMPT_DYNAMIC Debian 5.18.16-1kali1 (2022-08-31)
+Architecture:    x86_64
+Platform:        Linux-5.18.0-kali7-amd64-x86_64-with-glibc2.34
+
+Python exe:      /usr/bin/python3
+Python version:  3.10.7 (main, Sep  8 2022, 14:34:29) [GCC 12.2.0]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.9
+Target platform: android
+Target format:   gradle
+
+Environment Variables:
+    CLUTTER_IM_MODULE=ibus
+    COLORFGBG=15;0
+    COLORTERM=truecolor
+    COMMAND_NOT_FOUND_INSTALL_PROMPT=1
+    DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/0/bus
+    DESKTOP_SESSION=lightdm-xsession
+    DISPLAY=:0.0
+    DOTNET_CLI_TELEMETRY_OPTOUT=1
+    GDMSESSION=lightdm-xsession
+    GTK_IM_MODULE=ibus
+    GTK_MODULES=gail:atk-bridge
+    HOME=/root
+    LANG=en_HK.UTF-8
+    LANGUAGE=en_HK:en
+    LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libproxychains.so.4
+    LESS_TERMCAP_mb=[1;31m
+    LESS_TERMCAP_md=[1;36m
+    LESS_TERMCAP_me=[0m
+    LESS_TERMCAP_se=[0m
+    LESS_TERMCAP_so=[01;33m
+    LESS_TERMCAP_ue=[0m
+    LESS_TERMCAP_us=[1;32m
+    LOGNAME=root
+    LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36::ow=30;44:
+    OLDPWD=/root
+    PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+    POWERSHELL_TELEMETRY_OPTOUT=1
+    POWERSHELL_UPDATECHECK=Off
+    PROXYCHAINS_CONF_FILE=/etc/proxychains4.conf
+    PWD=/home/kali/helloworld
+    QT_ACCESSIBILITY=1
+    QT_AUTO_SCREEN_SCALE_FACTOR=0
+    QT_IM_MODULE=ibus
+    QT_QPA_PLATFORMTHEME=qt5ct
+    SESSION_MANAGER=local/kali:@/tmp/.ICE-unix/1248,unix/kali:/tmp/.ICE-unix/1248
+    SHELL=/usr/bin/zsh
+    SHLVL=1
+    SSH_AGENT_PID=1311
+    SSH_AUTH_SOCK=/tmp/ssh-XXXXXX82P03b/agent.1248
+    TERM=xterm-256color
+    USER=root
+    WINDOWID=0
+    XAUTHORITY=/root/.Xauthority
+    XDG_CONFIG_DIRS=/etc/xdg
+    XDG_CURRENT_DESKTOP=XFCE
+    XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
+    XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/root
+    XDG_MENU_PREFIX=xfce-
+    XDG_RUNTIME_DIR=/run/user/0
+    XDG_SEAT=seat0
+    XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+    XDG_SESSION_CLASS=user
+    XDG_SESSION_DESKTOP=lightdm-xsession
+    XDG_SESSION_ID=2
+    XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+    XDG_SESSION_TYPE=x11
+    XDG_VTNR=7
+    XMODIFIERS=@im=ibus
+    _=/usr/bin/proxychains
+    _JAVA_OPTIONS=-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+
+Briefcase Log:
+[22:59:03]                                                                                                                                                         subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     /root/.cache/briefcase/tools/android_sdk/cmdline-tools/latest/bin/sdkmanager --list_installed                                                   subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld                                                                                                                           subprocess.py:452
+           >>> Environment Overrides:                                                                                                                              subprocess.py:461
+           >>>     ANDROID_SDK_ROOT=/root/.cache/briefcase/tools/android_sdk                                                                                       subprocess.py:463
+           >>>     JAVA_HOME=/root/.cache/briefcase/tools/java                                                                                                     subprocess.py:463
+           >>> Command Output:                                                                                                                                     subprocess.py:468
+           >>>     Loading package information...                                                                                                                  subprocess.py:470
+           >>>     Loading local repository...                                                                                                                     subprocess.py:470
+           >>>     [=========                              ] 25% Loading local repository...                                                                       subprocess.py:470
+           >>>     [=========                              ] 25% Fetch remote repository...                                                                        subprocess.py:470
+           >>>     [=======================================] 100% Fetch remote repository...                                                                       subprocess.py:470
+           >>>     Installed packages:                                                                                                                             subprocess.py:470
+           >>>       Path       | Version | Description          | Location                                                                                        subprocess.py:470
+           >>>       -------    | ------- | -------              | -------                                                                                         subprocess.py:470
+           >>>       patcher;v4 | 1       | SDK Patch Applier v4 | patcher/v4                                                                                      subprocess.py:470
+           >>>                                                                                                                                                     subprocess.py:470
+           >>> Return code: 0                                                                                                                                      subprocess.py:479
+                                                                                                                                                                       gradle.py:133
+           [helloworld] Building Android APK...                                                                                                                        gradle.py:133
+                                                                                                                                                                   subprocess.py:442
+           >>> Running Command:                                                                                                                                    subprocess.py:443
+           >>>     '/home/kali/helloworld/android/gradle/Hello World/gradlew' assembleDebug --console plain                                                        subprocess.py:444
+           >>> Working Directory:                                                                                                                                  subprocess.py:451
+           >>>     /home/kali/helloworld/android/gradle/Hello World                                                                                                subprocess.py:452
+           >>> Environment Overrides:                                                                                                                              subprocess.py:461
+           >>>     ANDROID_SDK_ROOT=/root/.cache/briefcase/tools/android_sdk                                                                                       subprocess.py:463
+           >>>     JAVA_HOME=/root/.cache/briefcase/tools/java                                                                                                     subprocess.py:463
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           [proxychains] DLL init: proxychains-ng 4.16                                                                                                             subprocess.py:421
+           Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true                                                                           subprocess.py:421
+[22:59:04] [proxychains] Strict chain  ...  127.0.0.1:7890  ...  127.0.0.1:36759  ...  OK                                                                          subprocess.py:421
+                                                                                                                                                                   subprocess.py:421
+           FAILURE: Build failed with an exception.                                                                                                                subprocess.py:421
+                                                                                                                                                                   subprocess.py:421
+           * What went wrong:                                                                                                                                      subprocess.py:421
+           A problem occurred configuring project ':app'.                                                                                                          subprocess.py:421
+           > com.android.builder.errors.EvalIssueException: NDK at /root/.cache/briefcase/tools/android_sdk/ndk/21.4.7075529 did not have a source.properties file subprocess.py:421
+                                                                                                                                                                   subprocess.py:421
+           * Try:                                                                                                                                                  subprocess.py:421
+           Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.    subprocess.py:421
+                                                                                                                                                                   subprocess.py:421
+           * Get more help at https://help.gradle.org                                                                                                              subprocess.py:421
+                                                                                                                                                                   subprocess.py:421
+           BUILD FAILED in 627ms                                                                                                                                   subprocess.py:421
+           >>> Return code: 1                                                                                                                                      subprocess.py:479
+           Building...                                                                                                                                                 gradle.py:134
+                                                                                                                                                                      __main__.py:22
+           Error while building project.                                                                                                                              __main__.py:23
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/local/lib/python3.10/dist-packages/briefcase/platforms/android/gradle.py:136 in build_app                                                                                   │
+│                                                                                                                                                                                  │
+│   133 │   │   self.logger.info("Building Android APK...", prefix=app.app_name)                                                                                                   │
+│   134 │   │   with self.input.wait_bar("Building..."):                                                                                                                           │
+│   135 │   │   │   try:                                                                                                                                                           │
+│ ❱ 136 │   │   │   │   self.subprocess.run(                                                                                                                                       │
+│   137 │   │   │   │   │   # Windows needs the full path to `gradlew`; macOS & Linux can find                                                                                     │
+│   138 │   │   │   │   │   # via `./gradlew`. For simplicity of implementation, we always prov                                                                                    │
+│   139 │   │   │   │   │   # the full path.                                                                                                                                       │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                    │
+│ │    app = <com.example.helloworld v0.0.1 AppConfig>                                        │                                                                                    │
+│ │ kwargs = {}                                                                               │                                                                                    │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd262bfdab0> │                                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯                                                                                    │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/integrations/subprocess.py:217 in run                                                                                          │
+│                                                                                                                                                                                  │
+│   214 │   │   if stream_output or (                                                                                                                                              │
+│   215 │   │   │   self.command.input.is_output_controlled and not is_output_redirected                                                                                           │
+│   216 │   │   ):                                                                                                                                                                 │
+│ ❱ 217 │   │   │   return self._run_and_stream_output(args, **kwargs)                                                                                                             │
+│   218 │   │                                                                                                                                                                      │
+│   219 │   │   # Otherwise, invoke run() normally.                                                                                                                                │
+│   220 │   │   self._log_command(args)                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────── locals ────────────────────────────────────────────────────────────────────────╮                        │
+│ │                 args = [PosixPath('/home/kali/helloworld/android/gradle/Hello World/gradlew'), 'assembleDebug', '--console', 'plain']                 │                        │
+│ │ is_output_redirected = None                                                                                                                           │                        │
+│ │               kwargs = {                                                                                                                              │                        │
+│ │                        │   'env': {                                                                                                                   │                        │
+│ │                        │   │   'ANDROID_SDK_ROOT': '/root/.cache/briefcase/tools/android_sdk',                                                        │                        │
+│ │                        │   │   'JAVA_HOME': '/root/.cache/briefcase/tools/java'                                                                       │                        │
+│ │                        │   },                                                                                                                         │                        │
+│ │                        │   'cwd': PosixPath('/home/kali/helloworld/android/gradle/Hello World'),                                                      │                        │
+│ │                        │   'check': True                                                                                                              │                        │
+│ │                        }                                                                                                                              │                        │
+│ │                 self = <briefcase.integrations.subprocess.Subprocess object at 0x7fd262be87f0>                                                        │                        │
+│ │        stream_output = False                                                                                                                          │                        │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                        │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/integrations/subprocess.py:283 in _run_and_stream_output                                                                       │
+│                                                                                                                                                                                  │
+│   280 │   │   self._log_return_code(return_code)                                                                                                                                 │
+│   281 │   │                                                                                                                                                                      │
+│   282 │   │   if check and return_code:                                                                                                                                          │
+│ ❱ 283 │   │   │   raise subprocess.CalledProcessError(return_code, args, stderr=stderr)                                                                                          │
+│   284 │   │                                                                                                                                                                      │
+│   285 │   │   return subprocess.CompletedProcess(args, return_code, stderr=stderr)                                                                                               │
+│   286                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────╮                                 │
+│ │        args = [PosixPath('/home/kali/helloworld/android/gradle/Hello World/gradlew'), 'assembleDebug', '--console', 'plain']                 │                                 │
+│ │       check = True                                                                                                                           │                                 │
+│ │      kwargs = {                                                                                                                              │                                 │
+│ │               │   'env': {                                                                                                                   │                                 │
+│ │               │   │   'ANDROID_SDK_ROOT': '/root/.cache/briefcase/tools/android_sdk',                                                        │                                 │
+│ │               │   │   'JAVA_HOME': '/root/.cache/briefcase/tools/java'                                                                       │                                 │
+│ │               │   },                                                                                                                         │                                 │
+│ │               │   'cwd': PosixPath('/home/kali/helloworld/android/gradle/Hello World'),                                                      │                                 │
+│ │               │   'stdout': -1,                                                                                                              │                                 │
+│ │               │   'stderr': -2,                                                                                                              │                                 │
+│ │               │   'bufsize': 1                                                                                                               │                                 │
+│ │               }                                                                                                                              │                                 │
+│ │     process = <Popen: returncode: 1 args: ['/home/kali/helloworld/android/gradle/Hello Wor...>                                               │                                 │
+│ │ return_code = 1                                                                                                                              │                                 │
+│ │        self = <briefcase.integrations.subprocess.Subprocess object at 0x7fd262be87f0>                                                        │                                 │
+│ │      stderr = None                                                                                                                           │                                 │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯                                 │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+CalledProcessError: Command '[PosixPath('/home/kali/helloworld/android/gradle/Hello World/gradlew'), 'assembleDebug', '--console', 'plain']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ /usr/local/lib/python3.10/dist-packages/briefcase/__main__.py:15 in main                                                                                                         │
+│                                                                                                                                                                                  │
+│   12 │   │   command, options = parse_cmdline(sys.argv[1:])                                                                                                                      │
+│   13 │   │   command.check_obsolete_data_dir()                                                                                                                                   │
+│   14 │   │   command.parse_config("pyproject.toml")                                                                                                                              │
+│ ❱ 15 │   │   command(**options)                                                                                                                                                  │
+│   16 │   │   result = 0                                                                                                                                                          │
+│   17 │   except HelpText as e:                                                                                                                                                   │
+│   18 │   │   log.info()                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                   │
+│ │ command = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd262bfdab0> │                                                                                   │
+│ │       e = BriefcaseCommandError('Error while building project.')                           │                                                                                   │
+│ │     log = <briefcase.console.Log object at 0x7fd264b84760>                                 │                                                                                   │
+│ │ options = {'update': False}                                                                │                                                                                   │
+│ │  result = 200                                                                              │                                                                                   │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                   │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/build.py:58 in __call__                                                                                               │
+│                                                                                                                                                                                  │
+│   55 │   │   else:                                                                                                                                                               │
+│   56 │   │   │   state = None                                                                                                                                                    │
+│   57 │   │   │   for app_name, app in sorted(self.apps.items()):                                                                                                                 │
+│ ❱ 58 │   │   │   │   state = self._build_app(                                                                                                                                    │
+│   59 │   │   │   │   │   app, update=update, **full_options(state, options)                                                                                                      │
+│   60 │   │   │   │   )                                                                                                                                                           │
+│   61                                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭────────────────────────────────────────── locals ───────────────────────────────────────────╮                                                                                  │
+│ │      app = <com.example.helloworld v0.0.1 AppConfig>                                        │                                                                                  │
+│ │ app_name = 'helloworld'                                                                     │                                                                                  │
+│ │  options = {}                                                                               │                                                                                  │
+│ │     self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd262bfdab0> │                                                                                  │
+│ │    state = None                                                                             │                                                                                  │
+│ │   update = False                                                                            │                                                                                  │
+│ ╰─────────────────────────────────────────────────────────────────────────────────────────────╯                                                                                  │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/commands/build.py:39 in _build_app                                                                                             │
+│                                                                                                                                                                                  │
+│   36 │   │   else:                                                                                                                                                               │
+│   37 │   │   │   state = None                                                                                                                                                    │
+│   38 │   │                                                                                                                                                                       │
+│ ❱ 39 │   │   state = self.build_app(app, **full_options(state, options))                                                                                                         │
+│   40 │   │                                                                                                                                                                       │
+│   41 │   │   self.logger.info(                                                                                                                                                   │
+│   42 │   │   │   f"Built {self.binary_path(app).relative_to(self.base_path)}",                                                                                                   │
+│                                                                                                                                                                                  │
+│ ╭──────────────────────────────────────────── locals ────────────────────────────────────────────╮                                                                               │
+│ │         app = <com.example.helloworld v0.0.1 AppConfig>                                        │                                                                               │
+│ │     options = {}                                                                               │                                                                               │
+│ │        self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd262bfdab0> │                                                                               │
+│ │       state = None                                                                             │                                                                               │
+│ │ target_file = PosixPath('/home/kali/helloworld/android/gradle/Hello World')                    │                                                                               │
+│ │      update = False                                                                            │                                                                               │
+│ ╰────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                               │
+│                                                                                                                                                                                  │
+│ /usr/local/lib/python3.10/dist-packages/briefcase/platforms/android/gradle.py:148 in build_app                                                                                   │
+│                                                                                                                                                                                  │
+│   145 │   │   │   │   │   check=True,                                                                                                                                            │
+│   146 │   │   │   │   )                                                                                                                                                          │
+│   147 │   │   │   except subprocess.CalledProcessError as e:                                                                                                                     │
+│ ❱ 148 │   │   │   │   raise BriefcaseCommandError("Error while building project.") from e                                                                                        │
+│   149                                                                                                                                                                            │
+│   150                                                                                                                                                                            │
+│   151 class GradleRunCommand(GradleMixin, RunCommand):                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────── locals ──────────────────────────────────────────╮                                                                                    │
+│ │    app = <com.example.helloworld v0.0.1 AppConfig>                                        │                                                                                    │
+│ │ kwargs = {}                                                                               │                                                                                    │
+│ │   self = <briefcase.platforms.android.gradle.GradleBuildCommand object at 0x7fd262bfdab0> │                                                                                    │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────╯                                                                                    │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Error while building project.
